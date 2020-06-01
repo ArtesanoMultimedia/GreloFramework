@@ -1,0 +1,22 @@
+{
+    "name": "grelo/grelo",
+    "description": "Grelo es un framework PHP ligero y ampliable",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "ArtesanoMultimedia",
+            "email": "artesanomultimedia@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0",
+        "ext-mysqli": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grelo\\Core\\": "/src/core/",
+            "Grelo\\Exceptions\\": "/src/Exceptions/"
+        }
+    }
+}
