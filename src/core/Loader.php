@@ -6,7 +6,7 @@ class Loader
 {
     static public function cargarControlador($controller)
     {
-        $controllersPath = defined(CONTROLLERS_PATH) ? CONTROLLERS_PATH : __DIR__ . '/../../../../app/Controllers/';
+        $controllersPath = defined(CONTROLLERS_PATH) ? CONTROLLERS_PATH : __DIR__ . '/../../../../../app/Controllers/';
         $controlador = ucwords($controller) . 'Controller';
         $strFileController = $controllersPath . $controlador . '.php';
 
